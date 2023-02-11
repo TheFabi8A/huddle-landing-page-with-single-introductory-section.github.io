@@ -7,10 +7,127 @@
 }
 
 body {
-    background-color: #333;
+    margin: 35px;
+    background: var(--violet) url("svg/bg-mobile.svg") top / contain no-repeat;
 }
 
 :root {
     --violet: hsl(257deg 40% 49%);
     --soft-magenta: hsl(300deg 69% 71%);
+}
+
+.logo {
+    width: 120px;
+}
+
+.illustration {
+    width: 100%;
+    margin: 55px 0;
+}
+
+.main .content {
+    color: #fff;
+    font-family: OpenSans, sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.content h1 {
+    font-weight: 600;
+    font-size: 1.7em;
+}
+
+.content p {
+    line-height: 1.3em;
+}
+
+.btn-register {
+    color: var(--violet);
+    border: none;
+    width: 175px;
+    padding: 10px 0;
+    border-radius: 17.5px;
+    box-shadow: 0 20px 15px -15px #000;
+}
+
+.btn-register:hover {
+    background-color: var(--soft-magenta);
+    color: #fff;
+    cursor: pointer;
+}
+
+.footer {
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+[class$="ico"] {
+    width: 35px;
+    height: 35px;
+    fill: #fff;
+}
+
+[class$="ico"]:hover {
+    fill: var(--soft-magenta);
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        margin: 0 auto;
+        width: 87.5vw;
+        padding: 50px 0;
+        min-height: 100vh;
+        background-image: url("svg/bg-desktop.svg");
+        background-position: left center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .logo {
+        width: 225px;
+    }
+
+    .main {
+        display: flex;
+        gap: 50px;
+    }
+
+    .main .content {
+        text-align: left;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .btn-register {
+        width: 180px;
+        font-size: 1.2em;
+        border-radius: 35px;
+        padding: 17.5px 0;
+    }
+
+    .content h1 {
+        font-size: 2.75em;
+    }
+
+    .content p {
+        font-size: 1.3em;
+    }
+
+    .illustration {
+        margin: 0;
+        width: 50%;
+        object-fit: scale-down;
+    }
+
+    .footer {
+        margin: 0;
+        align-self: flex-end;
+    }
 }
