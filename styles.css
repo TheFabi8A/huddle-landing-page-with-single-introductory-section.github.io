@@ -1,3 +1,27 @@
+@font-face {
+    font-family: PoppinsRegular;
+    src: url("/fonts/Poppins-Regular.woff2")format("woff2"),
+        url("fonts/Poppins-Regular.woff")format("woff"),
+        url("fonts/Poppins-Regular.ttf")format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: PoppinsSemiBold;
+    src: url("fonts/Poppins-SemiBold.woff2")format("woff2"),
+        url("fonts/Poppins-SemiBold.woff")format("woff"),
+        url("fonts/Poppins-SemiBold.ttf")format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: OpenSansRegular;
+    src: url("fonts/OpenSans-Regular.woff2")format("woff2"),
+        url("fonts/OpenSans-Regular.woff")format("woff"),
+        url("fonts/OpenSans-Regular.ttf")format("truetype");
+    font-display: swap;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -36,10 +60,12 @@ body {
 
 .content h1 {
     font-size: 1.7em;
+    font-family: PoppinsSemiBold, sans-serif;
 }
 
 .content p {
     line-height: 1.3em;
+    font-family: OpenSansRegular, sans-serif;
 }
 
 .btn-register {
@@ -49,6 +75,7 @@ body {
     padding: 10px 0;
     border-radius: 17.5px;
     box-shadow: 0 20px 15px -15px #000;
+    font-family: PoppinsRegular, sans-serif;
 }
 
 .btn-register:hover {
