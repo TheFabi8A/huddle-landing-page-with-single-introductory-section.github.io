@@ -29,7 +29,7 @@
 }
 
 body {
-    margin: 35px;
+    margin: 2.2em;
     background: var(--violet) url("svg/bg-mobile.svg") top / contain no-repeat;
 }
 
@@ -39,13 +39,13 @@ body {
 }
 
 .logo {
-    width: 135px;
+    width: 8.5em;
     object-fit: scale-down;
 }
 
 .illustration {
     width: 100%;
-    margin: 55px 0;
+    margin: 3.5em 0;
     object-fit: scale-down;
 }
 
@@ -55,7 +55,7 @@ body {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    gap: 20px;
+    gap: 1.25em;
 }
 
 .content h1 {
@@ -71,10 +71,10 @@ body {
 .btn-register {
     color: var(--violet);
     border: none;
-    width: 175px;
-    padding: 10px 0;
-    border-radius: 17.5px;
-    box-shadow: 0 20px 15px -15px #000;
+    width: 11em;
+    padding: 0.625em 0;
+    border-radius: 1.25em;
+    box-shadow: 0 1.25em 1em -1em #000;
     font-family: PoppinsRegular, sans-serif;
 }
 
@@ -92,8 +92,8 @@ body {
 }
 
 [class$="ico"] {
-    width: 40px;
-    height: 40px;
+    width: 2.5em;
+    height: 2.5em;
     fill: #fff;
 }
 
@@ -106,7 +106,7 @@ body {
     body {
         margin: 0 auto;
         width: 87.5vw;
-        padding: 50px 0;
+        padding: 3.125em 0;
         min-height: 100vh;
         background-image: url("svg/bg-desktop.svg");
         background-position: left center;
@@ -116,12 +116,12 @@ body {
     }
 
     .logo {
-        width: 225px;
+        width: 14em;
     }
 
     .main {
         display: flex;
-        gap: 50px;
+        gap: 3.125em;
     }
 
     .main .content {
@@ -131,10 +131,10 @@ body {
     }
 
     .btn-register {
-        width: 180px;
+        width: 11.25em;
         font-size: 1.2em;
-        border-radius: 35px;
-        padding: 17.5px 0;
+        border-radius: 2.188em;
+        padding: 1.25em 0;
     }
 
     .content h1 {
