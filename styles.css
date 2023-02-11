@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -18,16 +16,17 @@ body {
 
 .logo {
     width: 120px;
+    object-fit: scale-down;
 }
 
 .illustration {
     width: 100%;
     margin: 55px 0;
+    object-fit: scale-down;
 }
 
 .main .content {
     color: #fff;
-    font-family: OpenSans, sans-serif;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -36,7 +35,6 @@ body {
 }
 
 .content h1 {
-    font-weight: 600;
     font-size: 1.7em;
 }
 
@@ -114,16 +112,16 @@ body {
 
     .content h1 {
         font-size: 2.75em;
+        line-height: 1.5em;
     }
 
     .content p {
-        font-size: 1.3em;
+        font-size: 1.25em;
     }
 
     .illustration {
         margin: 0;
         width: 50%;
-        object-fit: scale-down;
     }
 
     .footer {
