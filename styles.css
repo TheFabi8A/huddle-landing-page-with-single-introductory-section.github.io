@@ -85,9 +85,9 @@ body {
 }
 
 .footer {
-    margin-top: 50px;
+    margin-top: 3.125em;
     display: flex;
-    gap: 20px;
+    gap: 1.25em;
     justify-content: center;
 }
 
@@ -131,10 +131,10 @@ body {
     }
 
     .btn-register {
-        width: 11.25em;
+        width: 11em;
         font-size: 1.2em;
-        border-radius: 2.188em;
-        padding: 1.25em 0;
+        border-radius: 2.2em;
+        padding: 1em 0;
     }
 
     .content h1 {
